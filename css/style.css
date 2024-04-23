@@ -7,6 +7,7 @@
 
 body{
     background-color: rgb(247, 248, 251);
+    font-family: "Rubik", sans-serif;
 }
 
 /* formattazione parametri */
@@ -33,6 +34,7 @@ body{
     margin: 40px auto;
     width: 70%;
     background-color: white;
+    border-radius: 6px;
 }
 
 /* formattazione bottoni */
@@ -63,4 +65,40 @@ body{
     color: rgb(201 206 211);
     border: 2px solid rgb(201 206 211);
     width: 120px;
+}
+
+/* formattazione liste */
+.arrow:after{
+   content:"\25BE";
+   display: inline-block;
+   font-size: 30px;
+   vertical-align: middle;
+   padding-left: 30px;
+   
+}
+
+.categoria{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.check:after{
+    content: "\2713";
+    margin-left: 36px;
+    color: rgb(145 212 198);
+    border: 2px solid rgb(145 212 198);
+    border-radius: 50%;
+}
+
+.etichetta{
+    display: inline-block;
+    color: white;
+    background-color: rgb(69 171 234);
+    font-size: 10px;
+    padding: 6px;
+    height: 25px;
+    border-radius: 10px;
+    vertical-align: middle;
+    
 }
