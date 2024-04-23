@@ -111,6 +111,11 @@ body{
     
 }
 
+.attivita{
+    display: inline-block;
+    margin: 10px 0;
+}
+
 .editorial{
     background-color: rgb(69 171 234);
 }
@@ -125,4 +130,12 @@ body{
 
 .mobile{
     background-color: rgb(242 158 51);
+}
+
+.website{
+    background-color: rgb(214 90 156);
+}
+
+.sales{
+    background-color: rgb(176 201 38);
 }
