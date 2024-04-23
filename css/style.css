@@ -5,9 +5,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(247, 248, 251);
+}
+
 /* formattazione parametri */
 #main-header{
     padding: 10px 0 10px 20px;
+    background-color: white;
 }
 
 #main-header h1{
@@ -25,7 +30,37 @@
 
 /* contenitore pagina */
 .contenitore{
-    background-color: rgb(247, 248, 251);
-    margin: 30px auto;
-    width: 80%;
+    margin: 40px auto;
+    width: 70%;
+    background-color: white;
+}
+
+/* formattazione bottoni */
+#aggiungi{
+    height: 50px;
+    padding: 10px 0 10px 30px;
+    border-bottom: 2px solid rgb(247, 248, 251);
+}
+
+.forma{
+    font-size: 16px;
+    
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    border: none;
+}
+
+#task{
+    color: white;
+    background-color: rgb(102, 170, 237);
+    border: 2px solid rgb(102, 170, 237);
+    
+}
+
+#sect{
+    background-color: white;
+    color: rgb(201 206 211);
+    border: 2px solid rgb(201 206 211);
+    width: 120px;
 }
