@@ -1,0 +1,31 @@
+/* azzeramento parametri */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* formattazione parametri */
+#main-header{
+    padding: 10px 0 10px 20px;
+}
+
+#main-header h1{
+    display: inline-block;
+    font-size: 45px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#logo{
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+/* contenitore pagina */
+.contenitore{
+    background-color: rgb(247, 248, 251);
+    margin: 30px auto;
+    width: 80%;
+}
