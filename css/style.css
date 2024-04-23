@@ -7,6 +7,10 @@
 
 body{
     background-color: rgb(247, 248, 251);
+}
+
+/* font pagina principale */
+.font{
     font-family: "Rubik", sans-serif;
 }
 
